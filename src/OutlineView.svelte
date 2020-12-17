@@ -1,18 +1,15 @@
-<script lang="coffeescript">
+<script>
 
-  export top = "0"
-  export width = "200px"
+  export let top = "0";
+  export let width = "200px";
 </script>
 
-<style lang="sass">
+<style>
 
-  nav
-    position: fixed
-    height: 100%
-
-    bottom: 0
-
-
+nav {
+  position: fixed;
+  height: 100%;
+  bottom: 0; }
 
 </style>
 <nav style="width: {width}; top: {top}">
